@@ -1,7 +1,85 @@
 body {
-  position: relative;
-  margin: 0px;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  margin: 0;
 }
+nav {
+  background-image: url(https://ingressive.org/wp-content/uploads/2022/06/website-header.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  max-width: 1290px;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.navigation {
+  padding-top: 30px;
+  display: flex;
+}
+.navigation ul {
+  list-style: none;
+  width: auto;
+  margin-left: auto;
+}
+
+.navigation > ul > li {
+  padding: 25px;
+  word-spacing: 5px;
+  color: white;
+  cursor: pointer;
+  display: inline;
+}
+.navigation > ul > li:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  margin-left: auto;
+  color: white;
+  align-content: center;
+}
+.logo > i {
+  padding: 15px;
+}
+
+.donatenow {
+  float: right;
+  border-radius: 5px;
+  background-color: aqua;
+  height: 60px;
+  width: 170px;
+  text-align: center;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.donatenow:hover {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.CyberSecurity {
+  text-align: center;
+  line-height: 0px;
+  padding: 50px 0px 50px 50px;
+}
+.Shop {
+  color: white;
+}
+.Scholarship {
+  color: white;
+  font-size: 61px;
+}
+.Home {
+  color: white;
+}
+
 
 #about {
   /* display: flex; */
@@ -129,4 +207,5 @@ body {
   color: #403e3e;
   transform: scale(0.89);
 }
+
 
