@@ -229,7 +229,6 @@ nav {
 }
 .row > .column > span {
   color: white;
-  
 }
 
 .row > .column > span > h2 {
@@ -240,4 +239,64 @@ nav {
 
 .row > .column > span > p {
   margin: 0;
+}
+
+#partner {
+  text-align: center;
+  background-color: #04357c;
+  height: 200px;
+  width: 90%;
+  margin: auto;
+  color: white;
+  position: relative;
+  margin-bottom: 45px;
+}
+
+#partner > h3 {
+  padding-top: 7%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #3edad8;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+#partner:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: black;
+}
+
+#cisco {
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  width: 90%;
+  margin: auto;
+}
+
+#cisco div {
+  text-align: center;
+}
+
+#cisco-logo h6 {
+
+    color: #04357c;
+    font-size: 20px;
+    margin-bottom: 0;
 }
