@@ -1,5 +1,4 @@
 body {
-
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   margin: 0;
@@ -79,7 +78,6 @@ nav {
 .Home {
   color: white;
 }
-
 
 #about {
   /* display: flex; */
@@ -207,5 +205,39 @@ nav {
   color: #403e3e;
   transform: scale(0.89);
 }
+.time {
+  text-align: center;
+  margin-top: 65px;
+}
+.time > h4 {
+  color: #04357c;
+  font-size: 30px;
+  margin-bottom: 1px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.row > .column {
+  background-color: #04357c;
+  height: 100px;
+  width: 276px;
+  text-align: center;
+  padding-top: 40px;
+}
+.row > .column > span {
+  color: white;
+  
+}
 
+.row > .column > span > h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 43px;
+}
 
+.row > .column > span > p {
+  margin: 0;
+}
