@@ -327,6 +327,52 @@ nav {
   color: #04357c;
   font-size: 20px;
   margin-bottom: 0;
+
+
+}
+
+/* Footer css code */
+#footer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  border-top: #e6e6e6 solid 0.1px;
+  padding-top: 60px;
+  padding-bottom: 38px;
+  font-family: monospace;
+}
+
+#footer > #copyright {
+  width: 50%;
+}
+
+#footer > #copyright > nav > a {
+  padding: 15px;
+  text-decoration: none;
+  color: #9b9b9b;
+}
+
+#footer > #copyright > nav > a:hover {
+  text-decoration: underline;
+  border-bottom: black solid 3px;
+}
+#footer > #policy {
+  width: 50%;
+}
+
+#footer > #policy > ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: auto;
+  list-style: none;
+  color: #9b9b9b;
+}
+
+#footer > #policy > ul > span:not(:last-child) {
+  border-right: #9b9b9b solid 1px;
+  padding-right: 15px;
+
+
 }
 
 .hidden {
