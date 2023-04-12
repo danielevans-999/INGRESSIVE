@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Plus+Jakarta+Sans:wght@300&family=Roboto&family=Source+Sans+Pro&display=swap");
 body {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
   margin: 0;
 }
-#top-nav {
+nav {
   background-image: url(https://ingressive.org/wp-content/uploads/2022/06/website-header.png);
   background-position: center center;
   background-repeat: no-repeat;
@@ -274,7 +273,7 @@ body {
 #partner {
   text-align: center;
   background-color: #04357c;
-  height: 250px;
+  height: 200px;
   width: 90%;
   margin: auto;
   color: white;
@@ -283,7 +282,7 @@ body {
 }
 
 #partner > h3 {
-  padding-top: 9%;
+  padding-top: 7%;
 }
 
 .overlay {
@@ -306,7 +305,7 @@ body {
 .text {
   position: absolute;
   overflow: hidden;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -318,7 +317,6 @@ body {
   grid-template-columns: repeat(5, 2fr);
   width: 90%;
   margin: auto;
-  margin-bottom: 150px;
 }
 
 #cisco div {
@@ -329,50 +327,6 @@ body {
   color: #04357c;
   font-size: 20px;
   margin-bottom: 0;
-
-}
-
-#footer {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  border-top: #e6e6e6 solid 0.1px;
-  padding-top: 60px;
-  padding-bottom: 38px;
-  font-family: monospace;
-}
-
-#footer > #copyright {
-  width: 50%;
-}
-
-#footer > #copyright > nav > a {
-  padding: 15px;
-  text-decoration: none;
-  color: #9b9b9b;
-}
-
-#footer > #copyright > nav > a:hover {
-  text-decoration: underline;
-  border-bottom: black solid 3px;
-}
-#footer > #policy {
-  width: 50%;
-}
-
-#footer > #policy > ul {
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: auto;
-  list-style: none;
-  color: #9b9b9b;
-}
-
-#footer > #policy > ul > span:not(:last-child) {
-  border-right: #9b9b9b solid 1px;
-  padding-right: 15px;
-
-
 }
 
 .hidden {
