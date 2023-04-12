@@ -241,7 +241,36 @@ body {
 .row > .column > span > p {
   margin: 0;
 }
+#frequentquestions {
+  color: #04357c;
+  font-size: 30px;
+  margin-left: 60px;
+}
+.Questions {
+  margin: auto;
+  margin-left: 60px;
+  margin-bottom: 70px;
+}
+.questions {
+  color: #04357c;
+}
+.questions > span {
+  text-decoration: none;
+  display: block;
+  line-height: 20px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
 
+.questions > span > a {
+  text-decoration: none;
+  color: #04357c;
+  
+}
+.questions > span > a:hover {
+  text-decoration: underline;
+  color: #04357c;
+}
 #partner {
   text-align: center;
   background-color: #04357c;
@@ -300,6 +329,7 @@ body {
   color: #04357c;
   font-size: 20px;
   margin-bottom: 0;
+
 }
 
 #footer {
@@ -342,4 +372,10 @@ body {
   border-right: #9b9b9b solid 1px;
   padding-right: 15px;
 
+
+}
+
+.hidden {
+
+  display: none;
 }
