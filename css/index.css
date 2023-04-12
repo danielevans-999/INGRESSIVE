@@ -240,7 +240,22 @@ nav {
 .row > .column > span > p {
   margin: 0;
 }
+#frequentquestions {
+  color: #04357c;
+  font-size: 30px;
+  margin-left: 60px;
 
+}
+.Questions {
+  margin: auto;
+  margin-left: 60px;
+  margin-bottom: 70px;
+  
+}
+.questions {
+  color: #04357c;
+  
+}
 #partner {
   text-align: center;
   background-color: #04357c;
@@ -295,8 +310,7 @@ nav {
 }
 
 #cisco-logo h6 {
-
-    color: #04357c;
-    font-size: 20px;
-    margin-bottom: 0;
+  color: #04357c;
+  font-size: 20px;
+  margin-bottom: 0;
 }
