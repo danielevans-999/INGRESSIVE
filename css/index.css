@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Plus+Jakarta+Sans:wght@300&family=Roboto&family=Source+Sans+Pro&display=swap");
 body {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
@@ -275,7 +274,7 @@ body {
 #partner {
   text-align: center;
   background-color: #04357c;
-  height: 250px;
+  height: 200px;
   width: 90%;
   margin: auto;
   color: white;
@@ -284,7 +283,7 @@ body {
 }
 
 #partner > h3 {
-  padding-top: 9%;
+  padding-top: 7%;
 }
 
 .overlay {
@@ -307,7 +306,7 @@ body {
 .text {
   position: absolute;
   overflow: hidden;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -319,7 +318,6 @@ body {
   grid-template-columns: repeat(5, 2fr);
   width: 90%;
   margin: auto;
-  margin-bottom: 150px;
 }
 
 #cisco div {
@@ -330,6 +328,7 @@ body {
   color: #04357c;
   font-size: 20px;
   margin-bottom: 0;
+
 
 }
 
